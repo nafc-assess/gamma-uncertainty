@@ -38,7 +38,8 @@ totals <- totals |>
          mean_ucl = (mean_total + abs(qt(0.025, mean_df)) * mean_units * sqrt(mean_var)),
          mean_sigma = mean_units * sqrt(mean_var),
          mean_scale = (mean_sigma ^ 2) / mean_total,
-         mean_shape = mean_total / mean_scale)
+         mean_shape = mean_total / mean_scale,
+         mean_shape2 = (mean_total ^ 2) / (mean_sigma ^ 2)) # same result
 
 bmsy_proxy <- mean(totals$mean_total)
 bmsy_proxy_units <- mean(totals$mean_units)
