@@ -20,7 +20,7 @@ While resampling techniques can be an effective tool to generate confidence inte
 Provided data from a bottom trawl stratified-random survey, average biomass or abundance ($\hat{\mu}$) and sampling variance ($\hat{\sigma}^2$) over the stock area can be estimated using the standard random-stratified design calculations [@cochran1977; @smith1981; @smith1990]. These estimates can then be used to calculate the scale ($\hat{\theta}$) and shape ($\hat{\kappa}$) parameters of the corresponding Gamma distribution as:
 
 \begin{equation}
-  \hat{\theta} = \frac{\hat{\sigma}^2}{\hat{\mu}}, ~ \text{and} ~ \hat{\kappa} = \frac{\hat{\mu}^2}{\hat{\theta}}
+  \hat{\theta} = \frac{\hat{\sigma}^2}{\hat{\mu}}, ~ \text{and} ~ \hat{\kappa} = \frac{\hat{\mu}}{\hat{\theta}}
   (\#eq:gamma)
 \end{equation}
 
