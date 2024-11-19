@@ -6,7 +6,7 @@ fig:ref-den
 abstract
 introduction
 methods
-calculating-gamma-parameters
+selection-of-a-probability-distribution-and-rationale-for-the-approach
 aggregating-estimates
 simulation-testing
 results-and-discussion

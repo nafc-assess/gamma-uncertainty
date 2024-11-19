@@ -3,7 +3,6 @@
 
 Simulation results can be replicated using the below code.
 
-
 ```{r, eval = FALSE, echo = TRUE}
 
 library(SimSurvey)
@@ -331,5 +330,4 @@ all_comp2 <- (lb_comp2 | lb_comp3) / (ub_comp2 | ub_comp3)
 
 
 ```
-
 
